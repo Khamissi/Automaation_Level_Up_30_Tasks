@@ -1,15 +1,15 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class assertDuckDuckGoPageTilteTEST extends testBase
+public class AssertDuckDuckGoPageTilteTest extends TestBase
 {
-    assertDuckDuckGoPageTitlePage assertDuckDuckGoPageTitlePageObject;
+    AssertDuckDuckGoPageTitlePage assertDuckDuckGoPageTitlePageObject;
 
     @Test
     public void assertGooglePageTitle()
     {
 
-        assertDuckDuckGoPageTitlePageObject = new assertDuckDuckGoPageTitlePage(driver);
+        assertDuckDuckGoPageTitlePageObject = new AssertDuckDuckGoPageTitlePage(driver);
         assertDuckDuckGoPageTitlePageObject.asserGooglePagetTitle();
         Assert.assertEquals(assertDuckDuckGoPageTitlePageObject.title,"Google");
     }

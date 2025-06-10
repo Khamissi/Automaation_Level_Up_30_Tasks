@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeMethod;
 
 import java.time.Duration;
 
-public class testBase
+public class TestBase
 {
     protected WebDriver driver;
 
@@ -20,9 +20,9 @@ public class testBase
         options.setImplicitWaitTimeout(Duration.ofSeconds(30));
     }
 
-//    @AfterMethod
-//    public void closeBrowser()
-//    {
-//            driver.quit();
-//    }
+    @AfterMethod
+    public void closeBrowser()
+    {
+            driver.quit();
+    }
 }

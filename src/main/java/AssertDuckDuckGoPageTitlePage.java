@@ -1,8 +1,8 @@
 import org.openqa.selenium.WebDriver;
 
-public class assertDuckDuckGoPageTitlePage extends pageBase
+public class AssertDuckDuckGoPageTitlePage extends PageBase
 {
-    public assertDuckDuckGoPageTitlePage(WebDriver driver)
+    public AssertDuckDuckGoPageTitlePage(WebDriver driver)
     {
         super(driver);
     }

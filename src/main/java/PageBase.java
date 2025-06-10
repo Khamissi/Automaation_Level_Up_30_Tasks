@@ -1,0 +1,12 @@
+import org.openqa.selenium.WebDriver;
+
+public class PageBase
+{
+    final WebDriver driver;
+
+    public PageBase(WebDriver driver)
+    {
+        this.driver = driver;
+    }
+}
+

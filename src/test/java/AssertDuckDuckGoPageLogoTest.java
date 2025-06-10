@@ -1,14 +1,14 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class assertDuckDuckGoPageLogoTest extends testBase
+public class AssertDuckDuckGoPageLogoTest extends TestBase
 {
-    assertDuckDuckGoPageLogoPage assertDuckDuckGoPageLogoPage;
+    AssertDuckDuckGoPageLogoPage assertDuckDuckGoPageLogoPage;
 
     @Test
     public void assertDuckDuckGoPageLogo()
     {
-        assertDuckDuckGoPageLogoPage = new assertDuckDuckGoPageLogoPage(driver);
+        assertDuckDuckGoPageLogoPage = new AssertDuckDuckGoPageLogoPage(driver);
         assertDuckDuckGoPageLogoPage.asserGooglePagetTitle();
         Assert.assertTrue(assertDuckDuckGoPageLogoPage.isLogoDisplayed);
     }
