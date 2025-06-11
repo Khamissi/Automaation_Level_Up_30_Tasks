@@ -9,6 +9,7 @@
             <class name="AssertDuckDuckGoPageTilteTest"/>
             <class name="AssertDuckDuckGoPageLogoTest"/>
             <class name="AssertCheckBoxesTest"/>
+            <class name="AssertCountryNameInTableTest"/>
         </classes>
     </test>
 
